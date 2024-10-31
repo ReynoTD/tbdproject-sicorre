@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styleslogin.css">
+    <title>Alta Examen</title>
+  </head>
+  <body>
+    <div class="nav">
+      <span>Sistema de Computo Rápido de Reactivos (SICORRE)</span>
+    </div>
+    <h1>Alta Examen</h1>
+    <div class="container-alta">
+      <div class="card-alta">
+        <h2>Preguntas</h2>
+        <form >
+          <label for="name">Numero de preguntas a generar:</label>
+          <input
+            type="number"
+            min="0"
+            max="30"
+            id="total-questions"
+            name="total-questions"
+            placeholder="Ingrese el total de preguntas a crear en el examen"
+            required
+          />
+          <label for="name">Descripción:</label>
+          <input
+            type="text"
+            id="question1"
+            name="question1"
+            placeholder="Escriba una descripción"
+            required
+          />
+          <label for="topic">Materia:</label>
+          <input
+            type="text"
+            id="topic"
+            name="topic"
+            placeholder="Escriba la materia"
+            required
+          />
+          <label for="unit">Unidad:</label>
+          <select name="unit" id="unit">
+            <option value="">Seleccione una unidad</option>
+            <option value="01">1</option>
+            <option value="02">2</option>
+            <option value="03">3</option>
+            <option value="04">4</option>
+          </select>
+          <label for="answer-number">No. Resp:</label>
+          <input
+            type="text"
+            id="answer-number"
+            name="answer-number"
+            placeholder="Escriba el numero de respuestas"
+            required
+          />
+
+          <label for="answer-1">Respuesta 1:</label>
+          <input
+            type="text"
+            id="answer-1"
+            name="answer-1"
+            placeholder="Escriba la respuesta 1"
+            required
+          />
+
+          <label for="answer-1">Respuesta 2:</label>
+          <input
+            type="text"
+            id="answer-2"
+            name="answer-2"
+            placeholder="Escriba la respuesta 2"
+            required
+          />
+
+          <label for="answer-3">Respuesta 3:</label>
+          <input
+            type="text"
+            id="answer-3"
+            name="answer-3"
+            placeholder="Escriba la respuesta 3"
+            required
+          />
+          
+          <label for="correct-answer">Resp. Corracta:</label>
+          <input
+            type="text"
+            id="correct-answer"
+            name="correct-answer"
+            placeholder="Escriba la respuesta correcta"
+            required
+          />
+          <div class="div-btn"><button class="btn-alta">Registrar</button>
+          <button class="btn-alta">Eliminar</button>
+          <button class="btn-alta">Modificar</button>
+          <button class="btn-alta">Limpiar</button>
+          <button class="btn-alta">Imprimir</button>
+          <button class="btn-alta">Salir</button></div>
+          
+          
+        </form>
+      </div>
+  </body>
+</html>

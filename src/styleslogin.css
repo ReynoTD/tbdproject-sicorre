@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "segoe ui", sans-serif, Arial;
+  min-height: 100vh;
+}
+
+.nav {
+  height: 80px;
+
+  width: 100%;
+  background-color: #4d4d4d;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav > span {
+  display: block;
+  font-size: 22px;
+  color: #fff;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  margin: 10px auto;
+}
+
+.card {
+  width: 100%;
+  background-color: #ededed;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border-color 0.3s ease-in-out;
+  outline: none;
+  color: #333;
+}
+
+input:focus {
+  border-color: #3498db;
+}
+
+button {
+  height: 54px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: block;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.password-re {
+  color: #085da9;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
+
+@media (width > 600px) {
+  .nav {
+    height: 50px;
+  }
+}
+
+/*Diseño de las opciones del menu administrativo*/
+#op-menu {
+  text-decoration: none;
+}
+
+.op-btn {
+  width: 100%;
+}
+
+/*Diseño alta admin*/
+.container-alta {
+  width: 100%;
+  max-width: 720px;
+  margin: 10px auto;
+}
+
+.card-alta {
+  width: 100%;
+  background-color: #ededed;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.div-btn {
+  display: flex;
+  margin: 0 10px;
+}
+
+.btn-alta {
+  height: 54px;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  display: block;
+  margin: 20px 10px;
+  font-weight: bold;
+}
