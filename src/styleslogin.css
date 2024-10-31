@@ -143,3 +143,12 @@ button:hover {
   margin: 20px 10px;
   font-weight: bold;
 }
+
+/*Diseño patricio imagen*/
+.pat {
+  max-width: 400px;
+}
+
+#pat {
+  width: 100%;
+}
